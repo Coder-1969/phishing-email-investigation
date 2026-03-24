@@ -112,3 +112,17 @@ phishing-email-investigation/
 ├── iocs/
 │   └── indicators.md
 ```
+
+## 💡 Skills Demonstrated
+- Email header analysis
+- Phishing detection and investigation
+- IOC extraction and analysis
+- Threat intelligence usage
+- SOC alert triage and decision-making
+- MITRE ATT&CK mapping
+  
+## 👤 Author
+
+Sahil Pathk
+
+Aspiring SOC Analyst | Cyber Security Graduate
