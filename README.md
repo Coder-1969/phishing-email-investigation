@@ -33,6 +33,7 @@ The combination of these indicators confirms phishing behavior.
 
 ---
 
+
 ## 📊 Key Findings
 - **Impersonated Brand:** Netflix  
 - **Suspicious Email Address:** `JGO47...@googlecloud.com`  
@@ -47,6 +48,7 @@ The combination of these indicators confirms phishing behavior.
 
 ---
 
+
 ## 🧠 Analyst Decision
 This email has been classified as a **phishing attack** based on:
 
@@ -60,12 +62,11 @@ This email has been classified as a **phishing attack** based on:
 
 ---
 
-## 🛡️ Recommendations
-- Block the domain `etekno.xyz` at the email gateway  
-- Block the malicious URL at network/firewall level  
-- Flag and quarantine similar emails  
-- Educate users on phishing awareness  
-- Implement stricter email authentication policies (SPF, DKIM, DMARC)  
+## 🚨 SOC Response Actions
+- Email reported and analyzed
+- Indicators extracted and documented
+- Malicious domain and URL recommended for blocking
+- Users advised not to interact with the email 
 
 ---
 
@@ -95,6 +96,16 @@ This email has been classified as a **phishing attack** based on:
 ## 📎 Investigation Files
 - Full report: [`report/phishing_case_report.pdf`](report/phishing_case_report.pdf)
 - Indicators of Compromise: [`iocs/indicators.md`](iocs/indicators.md)
+
+---
+
+## 🔄 Investigation Workflow
+1. Email received from user
+2. Header analysis performed
+3. Indicators extracted
+4. Threat intelligence lookup conducted
+5. Email classified as phishing
+6. Mitigation steps recommended
 
 ---
 
